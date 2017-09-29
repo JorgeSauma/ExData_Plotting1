@@ -1,3 +1,11 @@
+## Week 1 Asignement 
+
+This repo contains the 4 scripts to generate the 4 plots, and the png files for each plot.
+
+See below for description and tasks
+
+
+
 ## Introduction
 
 This assignment uses data from
