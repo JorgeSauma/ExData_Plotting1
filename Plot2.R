@@ -28,7 +28,7 @@ Days<-as.Date(power_data_subset$Date, "%d/%m/%Y")
 Time<-strptime(paste(Days,power_data_subset$Time), "%Y-%m-%d %H:%M:%S")
 
 #Plotting
-plot(Time, GlobalActivePower, ylab= "Global Active Power (kilowatts)", type = "l")
+plot(Time, GlobalActivePower, xlab="", ylab= "Global Active Power (kilowatts)", type = "l")
 
 #Close the file
 dev.off()

@@ -27,7 +27,7 @@ Days<-as.Date(power_data_subset$Date, "%d/%m/%Y")
 Time<-strptime(paste(Days,power_data_subset$Time), "%Y-%m-%d %H:%M:%S")
 
 #Plotting
-plot(Time, as.numeric(as.character(power_data_subset$Sub_metering_1)), type = "l", ylab= "Energy sub metering")
+plot(Time, as.numeric(as.character(power_data_subset$Sub_metering_1)), type = "l", xlab="", ylab= "Energy sub metering")
 lines(Time, as.numeric(as.character(power_data_subset$Sub_metering_2)), type = "l", col="red")
 lines(Time, as.numeric(as.character(power_data_subset$Sub_metering_3)), type = "l", col="blue")
 
